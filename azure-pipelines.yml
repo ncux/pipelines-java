@@ -4,8 +4,8 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
 
 variables:
-  variable1: value1
-  variable2: value2
+  message: 'Message from bash scipt: build $(system.definitionId) of $(system.teamProject) is completed!'
+  
 
 
 trigger:
