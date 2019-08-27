@@ -31,6 +31,7 @@ steps:
     targetPath: '$(Pipeline.Workspace)'
     artifact: 'drop'
 
+# bash scipt to run when build is completed
 - task: Bash@3
   inputs:
     targetType: 'inline'
